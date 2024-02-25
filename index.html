@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Tasbih</title>
+</head>
+<body>
+    <main class="m-5">
+        <div class="title-container">
+            <h1 class="title">Digital Tasbih</h1>
+        </div>
+        <section class="container">
+            <!-- SubhanallahContainer Start -->
+            <div class="tasbih-container">
+                <div class="tasbih-content">
+                    <h5 class="tasbih-title">Subhan Allah</h5>
+                    <p id="subhanAllahDisplay" class="tasbih-counter">0</p>
+                </div>
+                <div class="tasbih-buttons">
+                    <button onclick="incrementBtn(10)" id="subhanAllahIncrimentBtn" class="tasbih-button incriment-button" type="button">Incriment</button>
+                    <button id="subhanAllahDecrimentBtn" class="tasbih-button decrement-button" type="button">Decriment</button>
+                </div>
+            </div>
+            <!-- SubhanallahContainer End -->
+
+            <!-- AlhamdulillahContainer Start -->
+            <div class="tasbih-container">
+                <div class="tasbih-content">
+                    <h5 class="tasbih-title">Alhamdulillah</h5>
+                    <p id="alhamdulillahDisplay" class="tasbih-counter">0</p>
+                </div>
+                <div class="tasbih-buttons">
+                    <button id="alhamdulillahIncrimentBtn" class="tasbih-button incriment-button" type="button">Incriment</button>
+                    <button id="alhamdulillahDecrimentBtn" class="tasbih-button decrement-button" type="button">Decriment</button>
+                </div>
+            </div>
+            <!-- AlhamdulillahContainer End -->
+
+            <!-- AllahuakberContainer Start -->
+            <div class="tasbih-container">
+                <div class="tasbih-content">
+                    <h5 class="tasbih-title">Allahuakber</h5>
+                    <p  id="allahAkberDisplay" class="tasbih-counter">0</p>
+                </div>
+                <div class="tasbih-buttons">
+                    <button id="allahAkberIncrimentBtn" class="tasbih-button incriment-button" type="button">Incriment</button>
+                    <button id="allahAkberDecrimentBtn" class="tasbih-button decrement-button" type="button">Decriment</button>
+                </div>
+            </div>
+            <!-- AllahuakberContainer End -->
+        </section>
+
+        <!-- ResetContainer Start -->
+        <div class="resetContainer">
+            <button id="resetBtn" class="reset-button" type="button">Reset All Tasbih</button>
+        </div>
+        <!-- ResetContainer End -->
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
